@@ -1,0 +1,434 @@
+/*=====================
+        GENERALS
+=====================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("/assets/fonts/Lora-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Work-Sans";
+  src: url("/assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+html {
+  font-size: 10px;
+}
+
+h2 {
+  font-family: "Lora";
+  text-align: left;
+  font-size: 11rem;
+  color: black;
+  font-weight: 400;
+}
+
+p {
+  text-align: left;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-family: "Work-Sans";
+}
+
+.button {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  padding: 15px 35px;
+  border: 1px solid white;
+  text-decoration: none;
+  font-family: "Work-Sans";
+  display: inline-block;
+  transition: 0.4s ease;
+}
+
+.button:hover {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  background-color: white;
+}
+
+/*=====================
+        Header
+=====================*/
+header {
+  height: 100vh;
+  background-color: black;
+}
+header hr {
+  height: 20vh;
+  width: 0.1vw;
+  border-width: 0;
+  background-color: gray;
+  margin: 0 auto;
+  margin-bottom: 15vh;
+}
+header h1 {
+  text-align: center;
+  font-size: 9rem;
+  color: white;
+  line-height: 7rem;
+  font-family: "Lora";
+}
+header h1:nth-of-type(2) {
+  text-align: center;
+  font-size: 9rem;
+  color: black;
+  -webkit-text-stroke: 1px white;
+}
+header article {
+  margin-bottom: 4vh;
+}
+header article p {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-family: "Work-Sans";
+  margin: 4vh 0;
+}
+header article p:nth-of-type(2) {
+  margin-bottom: 10vh;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8vw;
+}
+
+/*=====================
+        MAIN
+=====================*/
+main p {
+  line-height: 4rem;
+}
+
+.sec_one_history {
+  background-color: black;
+  text-align: left;
+  color: white;
+  padding: 0 15vw 0 8vw;
+  background-image: url("../img/map.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 30vh right 50px;
+  background-size: 40%;
+  padding: 15vh 8vw;
+}
+.sec_one_history h2 {
+  text-align: left;
+  font-size: 11rem;
+  color: white;
+  font-weight: 400;
+  overflow: hidden;
+}
+.sec_one_history p {
+  color: white;
+}
+.sec_one_history div {
+  margin-top: 10vh;
+}
+
+.sec_two_stuckmiddle {
+  padding: 20% 0 15% 0;
+}
+.sec_two_stuckmiddle article {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.sec_two_stuckmiddle article h2 {
+  text-align: left;
+  font-size: 10rem;
+  color: black;
+  font-weight: 500;
+  line-height: 8.2rem;
+}
+.sec_two_stuckmiddle article p {
+  margin-top: 30px;
+}
+.sec_two_stuckmiddle article:nth-of-type(1) {
+  margin-bottom: 40%;
+}
+.sec_two_stuckmiddle img {
+  width: 19%;
+}
+.sec_two_stuckmiddle img:nth-of-type(1) {
+  transform: translate(350%, -200%);
+}
+.sec_two_stuckmiddle img:nth-of-type(2) {
+  transform: translate(-80%, -20%);
+}
+.sec_two_stuckmiddle img:nth-of-type(3) {
+  width: 15%;
+  transform: translate(565%, -600%);
+}
+.sec_two_stuckmiddle img:nth-of-type(4) {
+  transform: translate(0%, -180%);
+}
+.sec_two_stuckmiddle img:nth-of-type(5) {
+  transform: translate(100%, -100%);
+}
+.sec_two_stuckmiddle img:nth-of-type(6) {
+  transform: translate(-280%, 80%);
+}
+.sec_two_stuckmiddle img:nth-of-type(7) {
+  transform: translate(-80%, 280%);
+  position: static;
+}
+
+.zitat {
+  color: white;
+  width: 65%;
+  font-family: "Lora";
+  font-size: 3.6rem;
+  margin-bottom: 30px;
+}
+
+.sec_three_goldenbear {
+  background-color: black;
+  text-align: left;
+  color: white;
+  padding: 30vh 0vw 1vh 8vw;
+}
+.sec_three_goldenbear article {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-bottom: 5vh;
+  align-items: flex-start;
+}
+.sec_three_goldenbear article h2 {
+  text-align: left;
+  font-size: 10rem;
+  color: white;
+  font-weight: 500;
+  width: 40%;
+  line-height: 8.2rem;
+  margin-right: 20vw;
+}
+.sec_three_goldenbear article h4 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Work-Sans";
+}
+.sec_three_goldenbear article p:nth-of-type(1) {
+  color: white;
+  margin-bottom: 25px;
+}
+.sec_three_goldenbear img:nth-of-type(1) {
+  width: 30%;
+  position: relative;
+  transform: translate(200%, 5%);
+  z-index: 2;
+}
+.sec_three_goldenbear img:nth-of-type(2) {
+  width: 60%;
+  position: relative;
+  transform: translate(-40%, 11%);
+  z-index: 1;
+}
+
+.sec_four_poppybear {
+  position: relative;
+  padding: 40vh 0vw 10vh 8vw;
+  overflow: hidden;
+}
+.sec_four_poppybear img:nth-of-type(1) {
+  width: 30%;
+  position: absolute;
+  right: -150px;
+  top: -150px;
+  z-index: 3;
+  animation-name: spin;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.sec_four_poppybear article {
+  display: flex;
+  color: white;
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+  align-items: flex-start;
+}
+.sec_four_poppybear article h2 {
+  text-align: left;
+  font-size: 10rem;
+  color: black;
+  font-weight: 500;
+  width: 40%;
+  line-height: 8.2rem;
+  margin-right: 20vw;
+}
+.sec_four_poppybear article h4 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+  font-family: "Work-Sans";
+}
+.sec_four_poppybear article p:nth-of-type(1) {
+  color: black;
+  margin-bottom: 25px;
+}
+.sec_four_poppybear img:nth-of-type(2) {
+  width: 30%;
+  position: relative;
+  transform: translate(10%, -25%);
+  z-index: 2;
+}
+.sec_four_poppybear img:nth-of-type(3) {
+  width: 60%;
+  position: relative;
+  transform: translate(-5%, 0%);
+  z-index: 1;
+}
+
+.last_sec_joinus {
+  background-color: black;
+  text-align: left;
+  color: white;
+  padding: 30vh 0vw 1vh 8vw;
+  position: relative;
+  overflow: hidden;
+}
+.last_sec_joinus .animation_june {
+  background-color: white;
+  width: 200%;
+  position: absolute;
+  rotate: 45deg;
+  left: -100px;
+  top: 400px;
+  animation-name: move;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.last_sec_joinus .animation_june h2 {
+  text-align: left;
+  font-size: 10rem;
+  color: black;
+  font-weight: 600;
+}
+.last_sec_joinus .animation_june h2 span {
+  text-align: left;
+  font-size: 10rem;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(700px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.last_sec_joinus article {
+  width: 55vw;
+}
+.last_sec_joinus article p:nth-of-type(1) {
+  color: white;
+  margin-bottom: 25px;
+}
+.last_sec_joinus .socialmeadia_redcross {
+  width: 100%;
+  padding-right: 8vw;
+  display: flex;
+  justify-content: space-between;
+}
+.last_sec_joinus .socialmeadia_redcross .logos {
+  display: flex;
+  flex-direction: column;
+}
+.last_sec_joinus .socialmeadia_redcross .logos .container_icons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.last_sec_joinus .socialmeadia_redcross .logos .logo {
+  width: 30px;
+  margin-right: 10px;
+}
+.last_sec_joinus .socialmeadia_redcross .logos p:nth-of-type(2) {
+  color: white;
+  margin-bottom: 25px;
+}
+.last_sec_joinus .socialmeadia_redcross .container_logo_redcross {
+  text-align: center;
+}
+.last_sec_joinus .socialmeadia_redcross .container_logo_redcross img {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 6px;
+  }
+  header {
+    height: 70vh;
+  }
+  header hr {
+    margin-bottom: 10vh;
+  }
+  .sec_one_history h2 {
+    font-size: 5rem;
+  }
+  .sec_two_stuckmiddle article {
+    width: 60%;
+  }
+  .sec_three_goldenbear article {
+    flex-direction: column;
+    padding-left: 8vw;
+  }
+  .sec_three_goldenbear div {
+    width: 80vw;
+  }
+  .sec_three_goldenbear div .zitat {
+    margin-top: 40px;
+    width: 82%;
+  }
+  .sec_four_poppybear {
+    padding-top: 20vh;
+  }
+  .sec_four_poppybear img:nth-of-type(1) {
+    width: 70%;
+    right: -150px;
+    top: -150px;
+  }
+  .sec_four_poppybear article {
+    flex-direction: column;
+    padding-left: 8vw;
+  }
+  .sec_four_poppybear div {
+    width: 80vw;
+  }
+  .sec_four_poppybear div .zitat {
+    margin-top: 40px;
+    width: 82%;
+  }
+  .last_sec_joinus .animation_june {
+    width: 350%;
+    position: none;
+    left: -600px;
+    top: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
