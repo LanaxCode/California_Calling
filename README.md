@@ -10,4 +10,5 @@ Screenshot:
 
 Full Website:
 
-![Uploading lanaxcode.github.io_California_Calling_ (1).png…]()
+![lanaxcode github io_California_Calling_ (1)](https://github.com/LanaxCode/California_Calling/assets/123948215/d266ce18-ccf6-4531-b3fd-b71f79956bc2)
+
