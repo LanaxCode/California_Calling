@@ -1,6 +1,6 @@
 Califonia Calling Design Project.
 
-🚀 Demo https://lanaxcode.github.io/DesignerChallange/
+🚀 Demo (https://lanaxcode.github.io/California_Calling/)
 
 Features:  💻 Built with HTML and SCSS
 
